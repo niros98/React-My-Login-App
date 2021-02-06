@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+  font-size: xx-large;
+
+
+}
+h1{
+  color: rgb(110, 40, 110);
+  padding: 3%;
+  text-align: center;
+}
+#login-buttom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: xxx-large;
+}
+
+#login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 85px;
+  text-align: left;
+  width: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  display: flex;
+  color: aqua;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.registration-form{
+  background-color: black;
+  display: flex;
+  font-family: monospace;
+  font-size: 45px;
+  color: azure;
+  width: 100%;
+  flex-direction: column;
+  vertical-align: auto;
+  height: 850px;
+  text-align: left;
+}
+.main-h1{
+  font-size: 50px;
+  font-style: italic;
+  
+}
+.main-form{
+  text-align: center;
+  width: 75%;
+  background-color: black;
+  font-family: monospace;
+  color: purple;
+}
+.reg-txt{
+  width: 350px;
+  box-sizing: border-box;
+
+}
+
+.login-terms{
+  flex-direction: row;
+}
+#login-header{
+  font-size: 100px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
